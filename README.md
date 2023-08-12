@@ -1,12 +1,44 @@
-# Kasm-Workspaces-Auto-Install
-This script, called kasm-install.sh, is an automated solution for setting up a development environment on Ubuntu.
+# Kasm Workspaces Auto Install
 
-Before we start, keep in mind you need at least 4096m of ram for this to work, if you have less you can change the swap size in the kasm-install.sh file.
+This repository contains the `kasm-install.sh` script, an automated solution for setting up a Kasm Workspaces environment on Ubuntu. This script is designed to streamline the process of installing and configuring the necessary components for Kasm Workspaces to function properly.
 
-1. Updates the package list for the system.
-2. Upgrades all existing packages to their latest versions.
-3. Installs the curl tool, utilized for transferring data in a variety of protocols.
-4. Installs Docker, a platform that streamlines the process of building, running, and sharing applications through containers.
-5. Downloads Docker Compose (an extension of Docker that simplifies the orchestration of multiple containers) and makes it executable.
-6. Downloads and unpacks the Kasm Release, software that creates isolated Kasm workspaces.
-7. Runs the Kasm install script while simultaneously automating the acceptance of the end-user license agreement (EULA).
+## Prerequisites
+
+Before you can use the script, ensure that your system meets the following requirements:
+
+- The script is designed to run on Ubuntu. Make sure you have an Ubuntu system on which you can execute the script.
+- Your system should have at least 4096MB of RAM. If your system has less RAM, you can adjust the swap size in the `kasm-install.sh` file [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+
+## What does the script do?
+
+The `kasm-install.sh` script performs the following operations:
+
+- Installs the `curl` tool, which is used for transferring data with various protocols [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+- Installs Docker, a platform that simplifies the process of building, running, and sharing applications inside containers [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+- Downloads Docker Compose, an extension of Docker that simplifies the orchestration of multiple containers, and makes it executable [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+- Downloads and unpacks the latest Kasm Workspaces release, a software that creates isolated, containerized workspaces [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+- Runs the Kasm Workspaces install script, which also includes automated acceptance of the End User License Agreement (EULA) [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+
+## How to use the script
+
+To use the `kasm-install.sh` script, follow these steps:
+
+1. Clone the repository to your local system by running the following command:
+
+```bash
+git clone https://github.com/gocygo/Kasm-Workspaces-Auto-Install.git
+```
+
+2. Navigate to the directory that contains the script:
+
+```bash
+cd Kasm-Workspaces-Auto-Install
+```
+
+3. Run the script:
+
+```bash
+bash kasm-install.sh
+```
+
+The script will then proceed to install and configure Kasm Workspaces on your system.
