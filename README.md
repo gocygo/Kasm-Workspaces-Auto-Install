@@ -13,11 +13,11 @@ Before you can use the script, ensure that your system meets the following requi
 
 The `kasm-install.sh` script performs the following operations:
 
-- Installs the `curl` tool, which is used for transferring data with various protocols [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
-- Installs Docker, a platform that simplifies the process of building, running, and sharing applications inside containers [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
-- Downloads Docker Compose, an extension of Docker that simplifies the orchestration of multiple containers, and makes it executable [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
-- Downloads and unpacks the latest Kasm Workspaces release, a software that creates isolated, containerized workspaces [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
-- Runs the Kasm Workspaces install script, which also includes automated acceptance of the End User License Agreement (EULA) [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+- Installs the `curl` tool, which is used for transferring data with various protocols.
+- Installs Docker, a platform that simplifies the process of building, running, and sharing applications inside containers.
+- Downloads Docker Compose, an extension of Docker that simplifies the orchestration of multiple containers, and makes it executable.
+- Downloads and unpacks the latest Kasm Workspaces release, a software that creates isolated, containerized workspaces.
+- Runs the Kasm Workspaces install script, which also includes automated acceptance of the End User License Agreement (EULA).
 
 ## How to use the script
 
