@@ -7,7 +7,7 @@ This repository contains the `kasm-install.sh` script, an automated solution for
 Before you can use the script, ensure that your system meets the following requirements:
 
 - The script is designed to run on Ubuntu. Make sure you have an Ubuntu system on which you can execute the script.
-- Your system should have at least 4096MB of RAM. If your system has less RAM, you can adjust the swap size in the `kasm-install.sh` file [Source 0](https://github.com/gocygo/Kasm-Workspaces-Auto-Install/tree/main).
+- Your system should have at least 4096MB of RAM. If your system has less RAM, you can adjust the swap size in the `kasm-install.sh` file.
 
 ## What does the script do?
 
