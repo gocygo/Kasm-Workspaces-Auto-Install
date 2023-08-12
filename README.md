@@ -1,6 +1,8 @@
 # Kasm-Workspaces-Auto-Install
 This script, called kasm-install.sh, is an automated solution for setting up a development environment on Ubuntu.
 
+Before we start, keep in mind you need at least 4096m of ram for this to work, if you have less you can change the swap size in the kasm-install.sh file.
+
 1. Updates the package list for the system.
 2. Upgrades all existing packages to their latest versions.
 3. Installs the curl tool, utilized for transferring data in a variety of protocols.
