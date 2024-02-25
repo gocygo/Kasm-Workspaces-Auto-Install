@@ -44,3 +44,12 @@ bash kasm-install.sh
 ```
 
 The script will then proceed to install and configure Kasm Workspaces on your system. Enjoy the streamlined setup process! 🎉
+
+
+
+
+
+
+
+
+--(ChatGPT wrote this documentation for me, but it is all correct.)--
